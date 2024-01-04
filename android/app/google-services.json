@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "47489752547",
+    "project_id": "consrimcasa-89f6e",
+    "storage_bucket": "consrimcasa-89f6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47489752547:android:7bdcab8d2a23d7d9ad94d6",
+        "android_client_info": {
+          "package_name": "com.example.ios_ext_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtIa7rfNMwAECprsYmtVmlTkqK4ZDsons"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47489752547:android:32c9812e44441eefad94d6",
+        "android_client_info": {
+          "package_name": "com.example.minister_exterieure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtIa7rfNMwAECprsYmtVmlTkqK4ZDsons"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47489752547:android:feb3f38672721f68ad94d6",
+        "android_client_info": {
+          "package_name": "com.example.minister_exterieure_mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtIa7rfNMwAECprsYmtVmlTkqK4ZDsons"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
