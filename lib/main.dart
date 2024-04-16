@@ -11,7 +11,6 @@ import 'package:sizer/sizer.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // initialiser la stockage local (local storage)
   await GetStorage.init();
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
@@ -29,7 +28,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // This widget is the root of your application.
   @override
   void initState() {
     super.initState();
@@ -47,19 +45,14 @@ class _MyAppState extends State<MyApp> {
         // locale: Get.deviceLocale,
         locale: const Locale('ar'),
         fallbackLocale: const Locale('ar'),
-        // defaultTransition: Transition.cupertino,
+        defaultTransition: Transition.cupertino,
         theme: ThemeData(
-          // primaryColor: primaryColor,
-          outlinedButtonTheme: const OutlinedButtonThemeData(
-              style: ButtonStyle(
-                  // side: MaterialStateProperty.all(
-                  //     const BorderSide(color: primaryColor)),
-                  // surfaceTintColor: MaterialStateProperty.all(Colors.blue),
-                  )),
-          colorScheme: ColorScheme.fromSwatch().copyWith(
-            primary: primaryColor,
-            secondary: secondaryColor,
-          ),
+            colorScheme: Theme.of(context).colorScheme.copyWith(
+              primary: primaryColor,
+            ),
+            appBarTheme: AppBarTheme(
+              color:primaryColor ,
+            ),
         ),
         home: const SplashScreen(),
       );

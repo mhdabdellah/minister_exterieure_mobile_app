@@ -44,13 +44,14 @@ class _SplashScreenState extends State<SplashScreen> {
     }
 
     Get.dialog(
+      barrierDismissible: false,
       AlertDialog(
         title: const Text('الحالة'),
-        content: SingleChildScrollView(
+        content: const SingleChildScrollView(
           // Added SingleChildScrollView for scrolling
           child: ListBody(
             children: <Widget>[
-              const Image(
+               Image(
                 // image: AssetImage('assets/dem.png'),
                 image: AssetImage('assets/logo.png'),
                 width: 100,
@@ -59,17 +60,17 @@ class _SplashScreenState extends State<SplashScreen> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
-                  Text(
+                children:  [
+                   Text(
                     'ماهي حالتك',
-                    style: TextStyle(
+                    style: const TextStyle(
                         fontSize: 25.0, // Choose the size that fits your needs
                         fontWeight: FontWeight.bold), // Styling the text
                     textAlign: TextAlign.center,
                   ),
                 ],
               ),
-              const SizedBox(height: 8.0),
+              SizedBox(height: 8.0),
             ],
           ),
         ),
