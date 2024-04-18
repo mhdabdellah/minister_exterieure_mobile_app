@@ -63,6 +63,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '47489752547',
     projectId: 'consrimcasa-89f6e',
     storageBucket: 'consrimcasa-89f6e.appspot.com',
-    iosBundleId: 'com.example.ministerExterieureMobileApp',
+    iosBundleId: 'com.tesshile.ministerExterieureMobileApp',
   );
 }
