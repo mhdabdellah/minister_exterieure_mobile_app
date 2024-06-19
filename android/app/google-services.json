@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "47489752547",
-    "project_id": "consrimcasa-89f6e",
-    "storage_bucket": "consrimcasa-89f6e.appspot.com"
+    "project_number": "262873822666",
+    "project_id": "tesshile",
+    "storage_bucket": "tesshile.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:47489752547:android:79824644cdcd24a2ad94d6",
+        "mobilesdk_app_id": "1:262873822666:android:1fca5fa9b8b1934f57cb33",
         "android_client_info": {
           "package_name": "com.consrimcasa_mobile_app.tesshile"
         }
@@ -15,83 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBtIa7rfNMwAECprsYmtVmlTkqK4ZDsons"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:47489752547:android:7bdcab8d2a23d7d9ad94d6",
-        "android_client_info": {
-          "package_name": "com.example.ios_ext_app"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBtIa7rfNMwAECprsYmtVmlTkqK4ZDsons"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:47489752547:android:32c9812e44441eefad94d6",
-        "android_client_info": {
-          "package_name": "com.example.minister_exterieure"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBtIa7rfNMwAECprsYmtVmlTkqK4ZDsons"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:47489752547:android:feb3f38672721f68ad94d6",
-        "android_client_info": {
-          "package_name": "com.example.minister_exterieure_mobile_app"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBtIa7rfNMwAECprsYmtVmlTkqK4ZDsons"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:47489752547:android:810e452801cfeeb9ad94d6",
-        "android_client_info": {
-          "package_name": "com.tesshile.minister_exterieure_mobile_app"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBtIa7rfNMwAECprsYmtVmlTkqK4ZDsons"
+          "current_key": "AIzaSyCFlfm526dXR8e7NCM3JDppe9DsOHGpJ4M"
         }
       ],
       "services": {

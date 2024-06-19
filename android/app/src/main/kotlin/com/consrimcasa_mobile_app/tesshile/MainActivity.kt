@@ -1,4 +1,4 @@
-package com.tesshile.minister_exterieure_mobile_app
+package com.consrimcasa_mobile_app.tesshile
 
 import io.flutter.embedding.android.FlutterActivity
 

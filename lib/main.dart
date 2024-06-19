@@ -12,14 +12,21 @@ import 'package:sizer/sizer.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await GetStorage.init();
-  SystemChrome.setPreferredOrientations(
-      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  // SystemChrome.setPreferredOrientations(
+  //     [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
+  // await Firebase.initializeApp(
+  //   // options: DefaultFirebaseOptions.currentPlatform,
+  // );
+  Firebase.initializeApp(); 
   runApp(const MyApp());
 }
 
+
+// void main() {
+// WidgetsFlutterBinding.ensureInitialized();
+// Firebase.initializeApp(); // Proper initialization without await
+// runApp(const MyApp());
+// }
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
